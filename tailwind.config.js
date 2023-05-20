@@ -8,9 +8,14 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        heading: ["Aboreto", "cursive"],
-        body: ["Poppins", "sans-serif"],
+        heading: ["Josefin Sans", "sans-serif"],
+        body: ["Noto Sans KR", "sans-serif"],
+
+
       },
+      screens: {
+        'medm': { 'raw': '(max-width: 820px)' },
+      }
     },
   },
   plugins: [],
